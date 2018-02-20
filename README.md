@@ -1,4 +1,5 @@
-##Playlist
+
+## Playlist
 
 You love listening to music and just made a playlist of n songs on your MP3 Player named songs. Each song, si, in songs is ordered sequentially such that songs = [s0 , s1, …, sn−1] and 0 ≤ i < n.
 
@@ -23,7 +24,7 @@ It must return an integer denoting the minimum number of button presses needed t
 
  
 
-###Constraints
+### Constraints
 
 1 ≤ n ≤ 100
 0 ≤ k ≤ n−1
@@ -31,13 +32,13 @@ It must return an integer denoting the minimum number of button presses needed t
 It is guaranteed that song q is in the playlist.
  
 
-###Output Format
+### Output Format
 
 Your function must return an integer denoting the minimum number of button presses needed to switch from song sk to song q. This is printed to stdout by the locked stub code in your editor.
 
  
 
-###Sample Input 1
+### Sample Input 1
 
 ```
 String[] playlist = ['wheniseeyouagain','borntorun','nothingelsematters','cecelia'];
@@ -47,13 +48,13 @@ Integer expected = 2;
 Integer actual = music.selection(startingIndex, selection);
 ```
 
-###Explanation 1
+### Explanation 1
 
 You start out listening to song sk=1 = "borntorun". By pressing the ↓ button 2 times, you can reach s3 = "cecelia". Thus, we return the number of button clicks, 2, as our answer.
 
  
 
-###Sample Input 2
+### Sample Input 2
 
 ```
 String[] playlist = ['dancinginthedark','rio','liveoak','liveoak'];
